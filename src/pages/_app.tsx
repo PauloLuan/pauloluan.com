@@ -10,6 +10,10 @@ function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Paulo Luan | React Native, React, NodeJS Developer</title>
         <meta name="description" content="React Native, React" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/pauloluan/fonts-cdn/serve/dw.css"
+        />
       </Head>
 
       <Component {...pageProps} />

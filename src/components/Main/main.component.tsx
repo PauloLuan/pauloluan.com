@@ -1,3 +1,4 @@
+import { Heading } from '@chakra-ui/react'
 
 export interface MainProps {
   testId?: string
@@ -6,7 +7,9 @@ export interface MainProps {
 const Main = ({ testId }: MainProps) => {
   return (
     <>
-      <h1>Teste 123 </h1>
+      <Heading as="h1" size="4xl">
+        Paulo Luan, o brabo.
+      </Heading>
     </>
   )
 }

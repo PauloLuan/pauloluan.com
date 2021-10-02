@@ -1,10 +1,10 @@
 import { extendTheme, theme, withDefaultColorScheme } from '@chakra-ui/react'
 import { createBreakpoints } from '@chakra-ui/theme-tools'
-import '@fontsource/roboto'
 
 const fonts = {
-  body: 'Roboto',
-  mono: `'Menlo', monospace`
+  body: 'Helvetica Now Display DW',
+  heading: 'Helvetica Now Display DW',
+  mono: 'Helvetica Now Display DW'
 }
 
 const breakpoints = createBreakpoints({
