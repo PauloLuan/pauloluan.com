@@ -12,7 +12,7 @@ function App({ Component, pageProps }: AppProps) {
         <meta name="description" content="React Native, React" />
         <link
           rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/pauloluan/fonts-cdn/serve/dw.css"
+          href="https://cdn.jsdelivr.net/gh/pauloluan/cdn/fonts/dw.css"
         />
       </Head>
 
